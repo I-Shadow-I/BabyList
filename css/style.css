@@ -1,0 +1,16 @@
+.bloc{
+  display: flex;
+  justify-content: center;
+}
+
+.bloc img{
+  width: 45%;
+  height: auto;  
+}
+
+@media screen and (max-width: 2500px) {
+  .bloc img{
+    width: 65%; 
+  }
+  
+}
